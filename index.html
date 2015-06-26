@@ -1,24 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Davide Ceretti</title>
+        <meta name="description" content="Personal website of Davide Ceretti">
+        <meta name="author" content="Davide Ceretti">
+        <meta name="keywords" content="python, django, agile, git, davide, ceretti, davideceretti, london, uk, developer, webdev">
 
-  <title>Davide Ceretti</title>
-  <meta name="description" content="Personal website of Davide Ceretti">
-  <meta name="author" content="Davide Ceretti">
-  <meta name="keywords" content="python, django, agile, git, davide, ceretti, davideceretti, london, uk, developer, webdev">
+        <!-- Mobile viewport optimized: h5bp.com/viewport -->
+        <meta name="viewport" content="width=device-width">
 
-  <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="static/css/roboto.min.css" rel="stylesheet">
+        <link href="static/css/material.min.css" rel="stylesheet">
+        <link href="static/css/ripples.min.css" rel="stylesheet">
+        <link href="static/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet/less" type="text/css" href="static/less/main.less" />
+    </head>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/gif">
+    <body>
 
-  <!-- Styles (CSS) -->
-  <link rel="stylesheet" href="/static/css/main.css"/>
-</head>
+        <!-- Your site -->
 
-<body>
-  <p>OK.</p>
-</body>
+        <div class="container">
+            <div class="row shadow-z-1">
+                <div class="col-lg-12">
+                    <div id="profile-pic">
+                        <img class="img-circle" src="static/pics/profile_picture.jpg"/>
+                    </div>
+                    <div id="contact-info">
+                        <h1 id="name">Davide Ceretti</h1>
+                        <h3 id="title">Software Developer, London</h2>
+                        <h3 id="email">dav.ceretti at gmail.com</h3>
+                        <h3 id="phone">+44 (0) 7534258888</h3>
+                    </div>
+                <div id="icons">
+                        <a href="https://github.com/davide-ceretti" target="_blank">
+                            <i class="fa fa-github-square"></i>
+                        </a>
+
+                        <a href="https://uk.linkedin.com/in/dceretti" target="_blank">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+
+                        <a href="https://twitter.com/davide_ceretti" target="_blank">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Your site ends -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.js"></script>
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <script src="static/js/ripples.min.js"></script>
+        <script src="static/js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
+
+    </body>
+
 </html>
